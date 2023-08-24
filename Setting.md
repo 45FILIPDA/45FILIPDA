@@ -1,3 +1,24 @@
+Setting Python PATH (Adjust)
+----------------------
+> Python PATH
+
+Path_python3.9 = /Applications/QGIS.app/Contents/MacOS/bin/python3.9
+
+In Terminal :
+sudo vim .bash_profile #กำหนดPathที่ค้นหาในvim
+	> i #เพื่อinsertลงvim
+	> export PATH="/Applications/QGIS.app/Contents/MacOS/bin:$PATH"
+	> esc
+	> :wq
+source ~/.bash_profile #ให้Terminalรันbash_profileใหม่
+echo $PATH #เช็คว่าpathที่สืบค้นโปรแกรม
+
+sudo vim /etc/paths
+	> i #เพื่อinsertลงvim
+	> /Applications/QGIS.app/Contents/MacOS/bin
+	> esc
+	> :wq
+
 Package
 ----------------------
   Use Python from Qgis and install Package
@@ -6,7 +27,7 @@ Package
   
 install All Package Used : 
 
-Use pip for Install Package in Terminal:
+> Use pip for Install Package in Terminal:
 
     pip install geopandas
     pip install rasterio
@@ -42,6 +63,7 @@ Import Package For Used:
     import install
     import geopandas as gpd
     import  scipy.signal.signaltools
+    
     def _centered(arr, newsize):
         # Return the center newsize portion of the array.
         newsize = np.asarray(newsize)
@@ -50,6 +72,7 @@ Import Package For Used:
         endind = startind + newsize
         myslice = [slice(startind[k], endind[k]) for k in range(len(endind))]
         return arr[tuple(myslice)]
+
     scipy.signal.signaltools._centered = _centered
     import statsmodels.api as sm
     from statsmodels.formula.api import poisson
