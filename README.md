@@ -1,6 +1,10 @@
 <h1 align="center">
-<img src="[/Users/phukritsriwilas/Desktop/Picture2.png](https://drive.google.com/file/d/1Y0Z0Z_p6GGUb7THTJAveeVB3yEdb6qP4/view?usp=sharing)" width="300">
+<img src="https://drive.google.com/uc?id=1Y0Z0Z_p6GGUb7THTJAveeVB3yEdb6qP4" width="150">
+<img src="https://drive.google.com/uc?id=1EBEpD5H3t6DFcWsk7uH6T4NpIs249NaS" width="150">
 </h1><br>
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](
+https://numfocus.org)
 
 - 👋 Hi, I’m @45FILIPDA
 - 👀 I’m interested in ...
