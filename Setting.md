@@ -19,7 +19,7 @@ sudo vim /etc/paths
 	> esc
 	> :wq
 
-Package
+Chack Package
 ----------------------
   Use Python from Qgis and install Package
 
