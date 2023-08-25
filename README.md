@@ -1,7 +1,6 @@
-<h1 align="center">
+<div align="center">
 <img src="./image/Yean.png?raw=true" width="150">
-<!-- <img src="./image/PowerBy45FILIPDA.png?raw=true" width="80"> -->
-</h1>
+</div>
 
 <a href="https://www.instagram.com/yeannobii/"><img src="./image/PowerBy45FILIPDA.png?raw=true" alt="Powered by 45FILIPDA" style="width:160px;height:0px;"></a>
 
