@@ -1,4 +1,4 @@
-![image](https://github.com/45FILIPDA/45FILIPDA/assets/139098611/61ae33c4-fe86-4615-80ce-0bcfb7ada111)<h1 align="center">
+<h1 align="center">
 <img src="./image/Yean.png?raw=true" width="150">
 <!-- <img src="./image/PowerBy45FILIPDA.png?raw=true" width="80"> -->
 </h1>
