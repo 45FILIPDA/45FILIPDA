@@ -1,23 +1,31 @@
 Setting Python PATH (Adjust)
 ----------------------
-> Python PATH
+> Setting Python PATH
 
 Path_python3.9 = /Applications/QGIS.app/Contents/MacOS/bin/python3.9
 
-In Terminal :
-sudo vim .bash_profile #กำหนดPathที่ค้นหาในvim
-	> i #เพื่อinsertลงvim
-	> export PATH="/Applications/QGIS.app/Contents/MacOS/bin:$PATH"
-	> esc
-	> :wq
-source ~/.bash_profile #ให้Terminalรันbash_profileใหม่
-echo $PATH #เช็คว่าpathที่สืบค้นโปรแกรม
+### Options 1
+> Setting PATH from vim in Terminal :
 
-sudo vim /etc/paths
-	> i #เพื่อinsertลงvim
-	> /Applications/QGIS.app/Contents/MacOS/bin
-	> esc
-	> :wq
+    - sudo vim .bash_profile
+    - Enter Button (i)
+    - export PATH="/Applications/QGIS.app/Contents/MacOS/bin:$PATH"
+    - Enter Button (esc)
+    - :wq
+
+> Chack bash_profile RUN in Terminal : # RUN bash_profile Again
+
+    - source ~/.bash_profile
+    - echo $PATH
+
+### Options 2
+>  Setting PATH from vim in Terminal :
+
+    - sudo vim /etc/paths
+    - Enter Button (i)
+    - /Applications/QGIS.app/Contents/MacOS/bin
+    - Enter Button (esc)
+    - :wq
 
 Chack Package
 ----------------------
