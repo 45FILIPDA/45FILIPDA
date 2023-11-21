@@ -86,4 +86,3 @@ Import Package For Used:
     from statsmodels.formula.api import poisson
     from statsmodels.formula.api import glm
     import scipy
-
