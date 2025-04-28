@@ -1,7 +1,8 @@
 Setting Python Conda Jupyter Error
 ----------------------
-
 > Setting PATH from vim in Terminal :
 
-    - conda list --export > package-list.txt
-    - conda install --name myenv --update-deps --force-reinstall --file package-list.txt
+    MacOS
+    - /pot/anaconda3/envs/env_name/bin/python
+    Windows
+    - C:/Users/phukrit/AppData/Local/anaconda3/envs/env_name/bin/python
