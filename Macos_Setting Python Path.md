@@ -27,6 +27,13 @@ Path_python3.9 = /Applications/QGIS.app/Contents/MacOS/bin/python3.9
     - Enter Button (esc)
     - :wq
 
+    หากไฟล์ swap เดิม (/etc/.paths.swp) ยัง ค้างอยู่ ในระบบ! (มันไม่ได้ถูกลบเองตอนออก) ไฟล์ swap เก่าเลยทำให้ตอนเข้าใหม่ขึ้นเตือนแบบนี้อีกครั้ง
+        วิธีแก้ที่ตรงจุด:
+            กด D เพื่อลบไฟล์ swap ทิ้ง (แล้วจะเข้าไฟล์ได้ตามปกติ ไม่มีปัญหาอีก)
+        หรือถ้าต้องการลบด้วยมือ (ใช้ Terminal พิมพ์ลบเองก็ได้) :
+            sudo rm /etc/.paths.swp
+
+
 Chack Package
 ----------------------
   Use Python from Qgis and install Package
