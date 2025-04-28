@@ -6,7 +6,7 @@
 
 🌱 About Me 🌱
 ----------------------
-Hi, I’m Phukrit Sriwilas (Yean). I’m interested in Atmosphere, Geosphere and The Earth's interior. I’m currently learning Artificial Intelligence and Machine Learning for Geographer. 📫 How to reach me (Email : phukrit.sri@gistda.or.th)
+Hi, I’m Phukrit Sriwilas (Yean). I’m interested in Atmosphere, Geosphere and The Earth's interior. I’m currently learning Artificial Intelligence and Machine Learning for Geographer. 📫 How to reach me (Email : yeannobii@gmail.com)
 
 ⚡️ Expert Skills ⚡️
 ----------------------
