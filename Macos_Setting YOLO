@@ -35,8 +35,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
         Mac >> 
                 conda install pytorch torchvision torchaudio -c pytorch -c conda-forge
-                conda install opencv-contrib-python
-                conda install shapely
+                pip install opencv-contrib-python
+                pip install shapely
 
 ### Test ###
 import torch
