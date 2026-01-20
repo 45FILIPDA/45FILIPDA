@@ -1,10 +1,9 @@
-Setting Python PATH (Adjust)
+Setting Python PATH
 ----------------------
-> Setting Python PATH
+### Options 1 (QGIS env)
+Path = /Applications/QGIS.app/Contents/MacOS/bin/python3.9
+Site_Packages = /Applications/QGIS.app/Contents/Resources/python/site-packages
 
-Path_python3.9 = /Applications/QGIS.app/Contents/MacOS/bin/python3.9
-
-### Options 1
 > Setting PATH from vim in Terminal :
 
     - sudo vim .bash_profile
@@ -13,13 +12,12 @@ Path_python3.9 = /Applications/QGIS.app/Contents/MacOS/bin/python3.9
     - Enter Button (esc)
     - :wq
 
-> Chack bash_profile RUN in Terminal : # RUN bash_profile Again
+>> Chack bash_profile RUN in Terminal : # RUN bash_profile Again
 
     - source ~/.bash_profile
     - echo $PATH
 
-### Options 2
->  Setting PATH from vim in Terminal :
+> Setting PATH from vim in Terminal :
 
     - sudo vim /etc/paths
     - Enter Button (i)
@@ -27,14 +25,17 @@ Path_python3.9 = /Applications/QGIS.app/Contents/MacOS/bin/python3.9
     - Enter Button (esc)
     - :wq
 
-    หากไฟล์ swap เดิม (/etc/.paths.swp) ยัง ค้างอยู่ ในระบบ! (มันไม่ได้ถูกลบเองตอนออก) ไฟล์ swap เก่าเลยทำให้ตอนเข้าใหม่ขึ้นเตือนแบบนี้อีกครั้ง
-        วิธีแก้ที่ตรงจุด:
-            กด D เพื่อลบไฟล์ swap ทิ้ง (แล้วจะเข้าไฟล์ได้ตามปกติ ไม่มีปัญหาอีก)
-        หรือถ้าต้องการลบด้วยมือ (ใช้ Terminal พิมพ์ลบเองก็ได้) :
-            sudo rm /etc/.paths.swp
+>> หากไฟล์ swap เดิม (/etc/.paths.swp) ยังค้างอยู่ในระบบไฟล์ทำให้ไม่สามารถ :wq ได้วิธีแก้ที่ตรงจุด:  
+    - กด D เพื่อลบไฟล์ swap ทิ้ง (แล้วจะเข้าไฟล์ได้ตามปกติ ไม่มีปัญหาอีก)  
+    - ถ้าต้องการลบด้วยมือ (ใช้ Terminal พิมพ์ลบเองก็ได้)  
 
+    - sudo rm /etc/.paths.swp
 
-Chack Package
+### Options 2 (Anaconda env)
+Path = /opt/anaconda3/envs/env_name/bin/python3.10
+Site_Packages = /opt/anaconda3/envs/env_name/lib/python3.10/site-packages
+
+## Chack Package
 ----------------------
   Use Python from Qgis and install Package
 
